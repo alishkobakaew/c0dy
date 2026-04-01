@@ -1,0 +1,11 @@
+ponedelnik = int(input("Расход за понедельник: "))
+vtornik = int(input("Расход за вторник: "))
+sreda = int(input("Расход за среду: "))
+chetverg = int(input("Расходы за четверг: "))
+pyatnica  = int(input("Расходы за пятницу: "))
+subbota  = int(input("Расходы за субботу: "))
+voskresenie = int(input("Расходы за воскресенье: "))
+obshaya_summa = sum([ponedelnik, vtornik, sreda, chetverg, pyatnica, subbota, voskresenie])
+srednii_rashod  = obshaya_summa // 7
+print("Общая сумма расходов:", obshaya_summa)
+print("Средний расход в день:", srednii_rashod)
